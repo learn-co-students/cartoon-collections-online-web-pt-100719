@@ -1,4 +1,4 @@
-def roll_call_dwarves(array)  # code an argument here
+def roll_call_dwarves(array)
  idx = 0 
   array.collect.each_with_index do |names, idx| 
     idx +=1 
@@ -6,12 +6,15 @@ def roll_call_dwarves(array)  # code an argument here
   end 
 end
 
-def summon_captain_planet() # code an argument here
-  # Your code here
+def summon_captain_planet(planeteer_calls) 
+  planeteer_calls.map do |calls| 
+    "#{calls.capitalize}!"
+  end 
 end
 
-def long_planeteer_calls() # code an argument here
-  # Your code here
+def long_planeteer_calls(words) 
+ i = 0 
+   words.find 
 end
 
 def find_the_cheese() # code an argument here
